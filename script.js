@@ -17,7 +17,7 @@ var tax = document.querySelector("#tax");
 var box = document.querySelector(".top");
 var which;
 
-onload = function(event) {
+onload = function() {
 	for(var j = 0; j < button.length; j++){
 		button[j].addEventListener("click", function(event) {
 			which = $(event.target).closest("tr");
@@ -33,7 +33,7 @@ onload = function(event) {
 				if (dish === receipt[i].name) {
 					receipt[i].price += cost;
 					receipt[i].quantity ++;
-					test.push("one")
+					test.push("one");
 					break;
 				} 
 				else if (receipt[i].name != dish && receipt[i] != receipt[receipt.length - 1]) {
@@ -64,7 +64,7 @@ onload = function(event) {
 			changeList();
 		});
 	} 
-}
+};
 
 
 // this part makes it so when new items are created/the quantity of old items
@@ -94,7 +94,7 @@ var changeList = function() {
 		cart.appendChild(nextItem);
 		box.scrollTop = 9999999999;
 	}
-}
+};
 
 
 // and every sad little thing from here on was me trying desperately to get
