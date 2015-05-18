@@ -7,7 +7,7 @@ body {
 
 .main {
 	
-	background-image: url("leather.jpg");
+	background-image: url("../images/leather.jpg");
 	width: 1000px;
 	height: 800px;
 	padding: 1px;
@@ -17,10 +17,10 @@ body {
 	margin-top: 20px;
 	border: 3px solid transparent;
   padding: 10px 20px;
-  -moz-border-image:url("gold.jpg") 30 30 round; /* Old Firefox */
-  -webkit-border-image:url("gold.jpg") 30 30 round; /* Safari */
-  -o-border-image:url("gold.jpg") 30 30 round; /* Opera */
-  border-image:url("gold.jpg") 10 30 round;
+  -moz-border-image:url("../images/gold.jpg") 30 30 round; /* Old Firefox */
+  -webkit-border-image:url("../images/gold.jpg") 30 30 round; /* Safari */
+  -o-border-image:url("../images/gold.jpg") 30 30 round; /* Opera */
+  border-image:url("../images/gold.jpg") 10 30 round;
 
 }
 
@@ -44,7 +44,7 @@ hr {
 }
 
 hr.tigerline:after {
-   content: url("littletiger.gif");
+   content: url("../images/littletiger.gif");
    display: inline-block;
    position: relative;
    top: -30px;
@@ -54,7 +54,7 @@ hr.tigerline:after {
 
 .menu {
 	background-color: #f5f5dc;
-	background-image: url("papel.jpg");
+	background-image: url("../images/papel.jpg");
 	float: left;
 	width: 650px;
 	height: 750px;
@@ -109,7 +109,7 @@ hr.tigerline:after {
 
 
 .receipt {
-	background-image: url("papel.jpg");
+	background-image: url("../images/papel.jpg");
 	background-color: #f5f5dc;
 	float: left;
 	width: 275px;
@@ -152,7 +152,7 @@ ul {
 }
 
 .blurb {
-	background-image: url("papel.jpg");
+	background-image: url("../images/papel.jpg");
 	background-color: #f5f5dc;
 	float: left;
 	width: 275px;
